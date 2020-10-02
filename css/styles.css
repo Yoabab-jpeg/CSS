@@ -1,4 +1,65 @@
+*::before *::after
+box-sizing: .border-box
+
+html {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.new-color {
+  color: darkblue;
+  background-color: rgb(182, 26, 78);
+}
+
 h1 {
   color: chocolate;
   background-color: cornflowerblue;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h1 {
+  color: brown;
+  color: blue;
+  color: rgb(255, 0, 0, 0.9);
+  background-color: chartreuse;
+}
+
+p {
+  color: darkgreen;
+  background-color: thistle;
+  font-family: cursive;
+  font-weight: normal;
+}
+/* this is a comment */
+.standard-box {
+  background-color: burlywood;
+  width: 300px;
+  padding: 30px;
+  border: 20px;
+  margin: 30px;
+}
+.border-box {
+  background-color: burlywood;
+  width: 500 px;
+  padding: 30px;
+  border: 20px;
+  margin: 30px;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(252, 129, 107);
+}
+a {
+  text-decoration: none;
+  background-color: indigo;
+}
+a:visited {
+  color: green;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
